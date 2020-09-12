@@ -5,7 +5,7 @@ Tech Stack Used : MERN - MongoDB , Express , React , Node.Js
 ## Quick Start
 ```
 $ git clone https://github.com/shakirck/query-search-Test.git
-cd query-search-Test
+$ cd query-search-Test
 ```
 ### Setup Server
 
