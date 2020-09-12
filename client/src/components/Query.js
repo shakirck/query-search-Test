@@ -1,7 +1,7 @@
 import React from "react";
 import tagImage from "../assets/tag.svg";
 export default function Query({ query }) {
-  let key = 0;
+  let key = 0; //simple alternate approach for solving the unique key error !!!Not recommended though
   return (
     <div className="Query">
       <div className="topic"> {query.topic}</div>
