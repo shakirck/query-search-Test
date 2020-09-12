@@ -5,14 +5,14 @@ import Form from "./Form";
 import Search from "./Search";
 export default function Home() {
   const [data, setData] = useState({ queries: [] }); //state for storing queries/questions
-  const [error, setError] = useState({ error: null });
+  const [error, setError] = useState({ error: null }); //state for dealing with the errors
   //state for controlling the form visibility state
   const [state, setState] = useState({
     isFormLoaded: false,
     inProgress: false,
   });
 
-  //state for updating the state after fetching the queries
+  //updating the state after fetching the queries
   const stateUpdate = (data) => {
     setData({ queries: data.queries });
     setState({ isFormLoaded: false, inProgress: false });

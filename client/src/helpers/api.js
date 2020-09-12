@@ -5,6 +5,7 @@ export async function listQueries() {
   return response.json();
 }
 
+//helper function for sending the query to the server
 export async function addQuery(queryData) {
   const url = `${APIurl}/api/create`;
   const response = await fetch(url, {
@@ -18,6 +19,7 @@ export async function addQuery(queryData) {
   return response.json();
 }
 
+//helper function for sending the search text to the server
 export async function searchQuery(searchText) {
   const url = `${APIurl}/api/search`;
   const response = await fetch(url, {

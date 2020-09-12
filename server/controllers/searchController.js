@@ -6,6 +6,7 @@ module.exports.search = async (req, res, next) => {
     if (!req.body.searchText) {
       return res.redirect('/api/questions'); //redirect to get all the queries from the DB  if the searchText  is empty
     }
+    //search and find all the query having a search text
     let results = await Query.find({
       $or: [
         { query: { $regex: req.body.searchText, $options: 'i' } },
