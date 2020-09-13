@@ -1,6 +1,7 @@
 # query-search-Test
 
 Tech Stack Used : MERN - MongoDB , Express , React , Node.Js
+* ## [Project Demo : Deployed ](https://admitkard-static-client.shakirck.vercel.app/)
 * ## [Video Link For Project Setup and Demo](https://drive.google.com/file/d/1iDmJd-PcwFFpGDoENWNJrrno_HW3k15e/view?usp=sharing)
 ## Quick Start
 ```
